@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nёrds</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normilize.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -22,7 +23,7 @@
           <a href="#">Клиенты</a>
         </li>
         <li>
-          <a href="#">Магазин</a>
+          <a href="catalog.html">Магазин</a>
         </li>
         <li>
           <a href="#">Контакты</a>
@@ -32,26 +33,37 @@
         <a href="#">Корзина</a>
       </div>
     </nav>
+    <div class="slider container">
+      <div class="slider-item slider-active">
+        <div class="slider-container">
+          <h2>Долго, дорого, скрупулезно.</h2>
+          <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+          <a class="button" href="#">Узнать больше</a>
+        </div>
+      </div>
+      <div class="slider-item">
+        <div class="slider-container">
+          <h2>Любим математику как никто другой</h2>
+          <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+          <a class="button" href="#">Узнать больше</a>
+        </div>
+      </div>
+      <div class="slider-item">
+        <div class="slider-container">
+          <h2>Только ночь, только хардкор</h2>
+          <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+          <a class="button" href="#">Узнать больше</a>
+        </div>
+      </div>
+      <div class="slider-toggles">
+        <span class="slider-toggle-active"></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
   </header>
   <main class="container">
     <h1 class="visually-hidden">Дизайн-студия Nёrds</h1>
-    <div class="slider">
-      <div class="slider-item">
-        <h2>Долго, дорого, скрупулезно.</h2>
-        <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-        <a href="#">Узнать больше</a>
-      </div>
-      <div class="slider-item">
-        <h2>Любим математику как никто другой</h2>
-        <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
-        <a href="#">Узнать больше</a>
-      </div>
-      <div class="slider-item">
-        <h2>Только ночь, только хардкор</h2>
-        <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
-        <a href="#">Узнать больше</a>
-      </div>
-    </div>
     <section class="features">
       <h2 class="visually-hidden">Наши преимущества</h2>
       <ul class="features-list">
@@ -137,21 +149,23 @@
         <a class="button modal-button" href="#">Напишите нам</a>
       </div>
     </div>
-    <div class="socials-promo">
-      <ul class="footer-socials">
-        <li>
-          <a href="#"><span class="visually-hidden">Вконтакте</span></a>
-        </li>
-        <li>
-          <a href="#"><span class="visually-hidden">Фейсбук</span></a>
-        </li>
-        <li>
-          <a href="#"><span class="visually-hidden">Инстаграм</span></a>
-        </li>
-      </ul>
-      <div class="footer-promo">
-        <p>Давайте дружить, это выгодно!</p>
-        <p>Скидка 10% для друзей из социальных сетей.</p>
+    <div class="container">
+      <div class="socials-promo">
+        <ul class="footer-socials">
+          <li>
+            <a href="#"><span class="visually-hidden">Вконтакте</span></a>
+          </li>
+          <li>
+            <a href="#"><span class="visually-hidden">Фейсбук</span></a>
+          </li>
+          <li>
+            <a href="#"><span class="visually-hidden">Инстаграм</span></a>
+          </li>
+        </ul>
+        <div class="footer-promo">
+          <p>Давайте дружить, это выгодно!</p>
+          <p>Скидка 10% для друзей из социальных сетей.</p>
+        </div>
       </div>
     </div>
   </footer>
