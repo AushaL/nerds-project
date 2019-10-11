@@ -39,6 +39,7 @@ input[type="radio"].visually-hidden {
   display: inline-block;
   line-height: 18px;
   font-weight: 500;
+  text-transform: uppercase;
   text-align: center;
   vertical-align: middle;
   color: #ffffff;
@@ -61,6 +62,7 @@ input[type="radio"].visually-hidden {
 
 .main-header {
   width: 100%;
+  margin-bottom: 80px;
   background-color: #eeeeee;
 }
 
@@ -222,6 +224,7 @@ input[type="radio"].visually-hidden {
   margin-right: 17px;
   background-color: #ffffff;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .slider-toggle-active::before {
@@ -234,4 +237,96 @@ input[type="radio"].visually-hidden {
   background-color: #ffffff;
   border: 2px solid #c1c1c1;
   border-radius: 50%;
+}
+
+/* features */
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.features-list li {
+  width: 360px;
+  text-align: left;
+}
+
+.features-list img {
+  margin-bottom: 25px;
+}
+
+.features-list h3 {
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.features-list p {
+  width: 260px;
+  margin: 0;
+}
+
+.features-list .button {
+  padding: 17px 40px;
+  margin-top: 30px;
+}
+
+.feature-button-green {
+  background-color: #00ca74;
+}
+
+.feature-button-green:hover,
+.feature-button-green:focus {
+  background-color: #00bc6c;
+}
+
+.feature-button-green:active {
+  background-color: #00aa62;
+}
+
+.feature-button-yellow {
+  background-color: #efc84a;
+}
+
+.feature-button-yellow:hover,
+.feature-button-yellow:focus {
+  background-color: #eab534;
+}
+
+.feature-button-yellow:active {
+  background-color: #e5a722;
+}
+
+/* about-us */
+.about-us {
+  border-top: 2px solid #eeeeee;
+  margin-bottom: 70px;
+}
+
+.about-us h2 {
+  margin: 0;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.about-us h3 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
 }
